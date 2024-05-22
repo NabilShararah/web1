@@ -1,0 +1,257 @@
+a:link.a:visited{
+
+    background-color: black ;
+    color: goldenrod;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+
+a:hover,a:active{
+    
+    background-color: green;
+    color: white;
+}
+.menu{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: black;
+    height: 100%;
+    position: fixed;
+}
+li a{
+    height:  40px;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: goldenrod;
+    color: white;
+}
+body{
+    background-color: black; /*black*/
+    margin: 0;
+}
+.active{
+    background-color: goldenrod;
+   
+}
+.footer{
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+
+}
+h3{
+    margin-left: 10%;
+    text-align: left;
+}
+.Header{
+    height:26px;
+    margin-left: 10%;
+    width: 90%;
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+
+}
+[class*="col-"]{
+    width: 100%;
+}
+@media only screen and(min-width:600px){
+    .col-s-1{ width: 8.33%;}
+    .col-s-2{ width: 16.66%;}
+    .col-s-3{ width: 25%;}
+    .col-s-4{ width: 33.33%;}
+    .col-s-5{ width: 41.66%;}
+    .col-s-6{ width: 50%;}
+    .col-s-7{ width: 58.33%;}
+    .col-s-8{ width: 66.66%;}
+    .col-s-9{ width: 75%;}
+    .col-s-10{ width: 83.33%;}
+    .col-s-11{ width: 91.66%;}
+    .col-s-12{ width: 100%;}
+
+}
+@media only screen and(min-width:768px){
+    .col-1{ width: 8.33%;}
+    .col-2{ width: 16.66%;}
+    .col-3{ width: 25%;}
+    .col-4{ width: 33.33%;}
+    .col-5{ width: 41.66%;}
+    .col-6{ width: 50%;}
+    .col-7{ width: 58.33%;}
+    .col-8{ width: 66.66%;}
+    .col-9{ width: 75%;}
+    .col-10{ width: 83.33%;}
+    .col-11{ width: 91.66%;}
+    .col-12{ width: 100%;}
+
+}
+
+.center{
+    
+    text-align: center;
+    width: 50%;
+    
+}
+.aside{
+    
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+.kit{
+    margin-left: 10%;
+    text-align: center;
+    height: 15%;
+    width: 15%;
+}
+.text{
+    
+    margin-top: 10px;
+    margin-left: 10%;
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+html{
+    font-family: "Lucida Sans ", sans-serif;
+}
+.Solo{
+    
+    text-align: center;
+    height: 15%;
+    width: 15%;
+}
+.crates{
+    text-align: center;
+    padding: 0%;
+    
+}
+.left{
+
+    width: 100%;
+    text-align: center;
+}
+.Mystery{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 34px;
+     margin-left: 10%;
+    color: goldenrod;
+    text-align: center;
+
+}
+.asidecr{
+    background-color: wheat;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+
+}
+h1{
+    margin-left: 10%;
+    text-align: center;
+    color: black;
+}
+.Size{
+
+    background-color: wheat;
+    color: black;
+    border-color:gold ;
+    margin-left: 10%;
+    width: 90%;
+    height: 450px;
+    padding: 1;
+    border: 1px solid black;
+}
+.sizetd {
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid black; 
+    text-align: center;
+  }
+.Scmnt{
+    color: goldenrod;
+}
+.insta{
+    margin-left: 10%;
+    color: goldenrod;
+    text-align: center;
+
+}
+.WhyUs{
+
+    background-color: wheat;
+    color: black;
+    border-color:gold ;
+    margin-left: 10%;
+    width: 90%;
+    height: 300px;
+    padding: 0;
+    border: 0px solid black;
+}
+.concept{
+    margin-left: 10%;
+}
+.con{
+    margin-left: 40%;
+    width: 50%;
+    
+    color: goldenrod;
+}
+.avoid{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+
+}
+.dl{
+    text-align: left;
+   
+}
+.searchdiv{
+    margin-left: 10%;
+
+    text-align: center;
+}
+.searchimg{
+    margin-left: 10%;
+
+}
+.searchholder{
+    color: black; 
+    background-color: goldenrod;
+    border: 1px solid black; 
+    padding: 8px; 
+    width: 200px;
+
+}
+.searchholder::placeholder {
+    color: black; 
+}
+.searchbtn{
+    
+    color: black;
+    background-color: goldenrod;
+}
